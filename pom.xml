@@ -15,4 +15,15 @@
    <scope>test</scope>
   </dependency>
  </dependencies>
+
+ <build>
+  <plugins>
+   <plugin>
+    <groupId>net.sf.maven.plugins</groupId>
+    <artifactId>maven-eclipse-format</artifactId>
+    <version>1.0</version>
+   </plugin>
+  </plugins>
+ </build>
+
 </project>
